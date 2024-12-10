@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mara Bautista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              pacifico: ["Pacifico", "cursive"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="h-screen w-full p-0 m-0 overflow-y-scroll overflow-x-hidden">
+    <div class="relative p-0 m-0">
+      <img class="h-screen w-full" src="images/image.jpg" alt="" />
+      <div
+        class="h-screen w-screen absolute top-0 left-0 overflow-x-hidden backdrop-blur-sm"
+      >
+        <!-- Arrière-plan -->
+        <div
+          class="h-full w-full bg-[url('/path/to/your/background.jpg')] bg-cover bg-center absolute top-0 left-0"
+        ></div>
+
+        <!-- Contenu superposé -->
+        <div class="relative z-10 h-full w-full">
+          <!-- Texte centré -->
+          <div class="absolute top-10 mx-5 inset-0 m-auto text-center">
+            <h1
+              class="text-2xl font-bold text-white drop-shadow-lg font-pacifico"
+            >
+              My raft on the river
+            </h1>
+            <h3 class="text-xl text-white mt-3 drop-shadow-md font-pacifico">
+              By, Mara Bautista
+            </h3>
+            <p class="text-sm text-white mt-4 drop-shadow-md font-pacifico">
+              My life's a river, wild and free, <br />Sometimes a torrent,
+              crashing over me, <br />Sometimes a whisper, soft and low,
+              <br />Secrets it holds, only I can know. <br /><br />
+              A winding path, I couldn't foresee, <br />Through sun-drenched
+              fields, where I long to be, And shadowed canyons, deep and vast,
+              Where echoes of heartbreak forever cast. <br /><br />I built my
+              raft, with trembling hands, <br />From splintered dreams and
+              hopeful strands, <br />The current pulls, I fight and strive,
+              <br />Through joy and sorrow, I somehow survive. <br /><br />The
+              rapids churn, a fearsome fight, Testing my strength, both day and
+              night, But in the stillness, waters clear, My reflection shines,
+              conquering fear. <br /><br />I've met companions, along the way,
+              <br />Some shared a moment, some stayed to stay, T<br />heir hands
+              in mine, we bravely faced, The changing tides, our spirits
+              embraced. <br /><br />And as my river nears its end, The ocean
+              waits, a journey to transcend, <br />I'll leave behind the shores
+              I knew, <br />Embrace the mystery, forever true. For me.
+            </p>
+          </div>
+
+          <!-- Images animées -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
